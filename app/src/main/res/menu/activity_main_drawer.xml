@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_doc"
+            android:title="Document" />
+        <item
+            android:id="@+id/nav_hull"
+            android:title="Hull" />
+        <item
+            android:id="@+id/nav_machinery"
+            android:title="Machinery and Electrical" />
+        <item
+            android:id="@+id/nav_outfitting"
+            android:title="Outfitting" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:title="Navigation and Safety Equipment" />
+        <item
+            android:id="@+id/nav_launching"
+            android:title="Launching" />
+        <item
+            android:id="@+id/nav_inclining"
+            android:title="Inclining" />
+        <item
+            android:id="@+id/nav_commisioning"
+            android:title="Commisioning and Sea Trial" />
+    </group>
+    <!--
+        <item android:title="Communicate">
+            <menu>
+                <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                    android:title="Share" />
+                <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                    android:title="Send" />
+            </menu>
+        </item>
+    -->
+</menu>
